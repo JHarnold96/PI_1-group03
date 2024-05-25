@@ -1,0 +1,230 @@
+.body {
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: hsl(35, 90%, 47%);
+}
+main {
+    float: left;
+    width: 100%;
+}    
+.base-1 {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;   
+}
+.logo {
+    position: relative;
+    float: left;
+    width: 0%;    
+}
+.retangulo {
+    margin: 5px;
+    width: 1100px;
+    height: 380px;
+    border: 10px double #000000;
+    background-color: white;
+}
+.campo-de-pesquisa {
+    width: 70%;
+    float: right;
+    position: absolute;
+    left: 500px;
+    top: 260px;
+}
+.campo-de-pesquisa input {
+    background-image: url(../img/lupa-icon.png);
+    background-repeat: no-repeat;
+    background-position: 98%;
+    padding: 15px;
+    height: 40px;
+    width: 500px;
+    font-size: large;
+}
+.Elipse {
+    cursor: pointer;
+    
+}
+.CRM-radio {
+    accent-color: hsl(35, 100%, 45%); 
+    position: absolute;
+    width: 50%;
+    left: 50px;
+    top: 260px;
+}
+.CRM-radio label {
+    cursor: pointer;
+    font-weight:bold;
+    position: absolute;
+    top: 10px;
+    right: 530px;
+}
+.CRM-radio input {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 575px;
+}    
+.nc-radio {
+    accent-color: hsl(35, 100%, 45%);
+    cursor: pointer;
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    top: 325px; 
+}
+.nc-radio label {
+    cursor: pointer;
+    font-weight:bold;
+    position:absolute;
+    top: 10px;
+    right: 420px;
+}
+.nc-radio input {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 575px;
+}
+.pesquise-seu-login h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 8px;
+    font: 60px;
+    color: #ffffff;
+}
+.subtitulo1 {
+    margin-left: 10px;
+    color: hsl(35, 90%, 47%);
+}
+.search-button {
+    position: absolute;
+    top: 380px;
+    left: 785px;
+}
+.search-button button {
+    height: 45px;
+    width: 250px;
+    background-color: hsl(35, 100%, 45%);
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: hsl(35, 90%, 47%);
+    border: 2px double #000000;
+}
+.clean-button {
+    position: absolute;
+    top: 380px;
+    left: 500px;
+}
+.clean-button button {
+    height: 45px;
+    width: 250px;
+    background-color: hsl(35, 100%, 45%);
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+.clean-button:hover {
+    background-color: hsl(35, 90%, 47%);
+    border: 2px double #000000;
+}
+.area-resultado {
+    position: absolute;   
+}
+.retangulo2 {
+    margin: 5px;
+    width: 1100px;
+    height: 450px;
+    border: 10px double #000000;
+    background-color: white;
+}
+.dados-encontrados {
+    margin-left: 10px;
+    font-style: bold;
+    color: hsl(35, 90%, 47%);
+}
+.nome {
+    margin: 20px;
+    margin-top: 50px;
+    
+}
+.crm {
+    position: absolute;
+    top: 86px;
+    right: 355px;
+}
+.status {
+    margin: 20px;
+    margin-top: 50px;
+}
+.especialidade {
+    position: absolute;
+    top: 158px;
+    right: 600px;
+}
+.data-cadastro {
+    margin: 20px;
+    margin-top: 50px;
+}
+.seu-login-e {
+    margin: 20px;
+    margin-top: 100px;
+}
+.retangulo-nome {
+    width: 570px;
+    height: 35px;
+    border: 2px solid #000000;
+    background-color: white;
+    position: absolute;
+    top: 95px;
+    right: 430px;
+}
+.retangulo-crm {
+    width: 250px;
+    height: 35px;
+    border: 2px solid #000000;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    right: -280px
+}
+.retangulo-status {
+    width: 200px;
+    height: 35px;
+    border: 2px solid #000000;
+    background-color: white;
+    position: absolute;
+    top: 167px;
+    right: 785px;
+}
+.retangulo-especialidade {
+    width: 500px;
+    height: 35px;
+    border: 2px solid #000000;
+    background-color: white;
+    position: absolute;
+    top: -13px;
+    right: -530px;    
+}
+.retangulo-data {
+    width: 200px;
+    height: 35px;
+    border: 2px solid #000000;
+    background-color: white;
+    position: absolute;
+    top: 237px;
+    right: 670px;
+}
+.retangulo-login {
+    width: 300px;
+    height: 60px;
+    border: 2px solid #000000;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    right: 630px;
+}  
+
